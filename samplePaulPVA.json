@@ -1,0 +1,23 @@
+{ "description": "a couple of giraffes walk across a grassy field", "imagetags" : [
+        {"id":"1","tag":"grass"
+        },
+        {"id":"2","tag":"outdoor"
+        },
+        {"id":"3","tag":"giraffe"
+        },
+        {"id":"4","tag":"sky"
+        },
+        {"id":"5","tag":"mammal"
+        },
+        {"id":"6","tag":"field"
+        },
+        {"id":"7","tag":"animal"
+        },
+        {"id":"8","tag":"walking"
+        },
+        {"id":"9","tag":"grassy"
+        },
+        {"id":"10","tag":"open"
+        }
+    ]
+}
