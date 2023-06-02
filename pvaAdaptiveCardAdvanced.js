@@ -25,3 +25,34 @@ pvaAdvancedAdaptiveCard = {
       }
     ]
   }
+
+  // this is the old way of doing it, which didn't seem to work any longer:
+
+ oldWay = Json({
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${description}",
+            "size": "Medium",
+            "weight": "Bolder",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "$data": "${imagetags}",
+                    "title": "${id}",
+                    "value": "${tag}"
+                }
+            ],
+            "separator": true,
+            "$data": "${$root['imagetags[0]']}",
+            "id": "id"
+        }
+    ]
+});
